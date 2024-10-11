@@ -21,7 +21,7 @@ import dynamic from 'next/dynamic';
 
 export default function Page() {
   return (
-    <div>
+    <div className="flex flex-col m-auto w-48 space-y-2">
       <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
           <WalletMultiButtonDynamic />
